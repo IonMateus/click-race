@@ -11,8 +11,11 @@ https://ionmateus.github.io/click-race/
 * Feito com HTML, CSS e JavaScript
 
 ## Imagens
-<img src="https://raw.githubusercontent.com/IonMateus/trex-chrome/main/imagesReadme/playing.png"/> 
-Jogando <br> <br>  <br>
+<img src="https://raw.githubusercontent.com/IonMateus/click-race/main/imagesReadme/start.png"/> 
+Home <br> <br>  <br>
 
-<img src="https://raw.githubusercontent.com/IonMateus/trex-chrome/main/imagesReadme/game-over.png"/>
-Game Over <br>  <br>  <br>
+<img src="https://raw.githubusercontent.com/IonMateus/click-race/main/imagesReadme/playing.png"/>
+Playing <br>  <br>  <br>
+
+<img src="https://raw.githubusercontent.com/IonMateus/click-race/main/imagesReadme/request.png"/>
+Janela prompt <br>  <br>  <br>
