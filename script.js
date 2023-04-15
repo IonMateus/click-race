@@ -67,14 +67,14 @@ function Jogar(){
 
         if(score1 > tempo|| score2 > tempo){
             if(score1 >tempo){
-                vencedor = jogador2
-                perdedor = jogador1
+                vencedor = jogador1
+                perdedor = jogador2
                 vezesMaisRapido = score1/score2
             }
             if(score2 > tempo){
                 vencedor = jogador2
                 perdedor = jogador1
-                vezesMaisRapido = score1/score2
+                vezesMaisRapido = score2/score1
             }
             alert("Quem venceu foi: "+ vencedor+", clicando "+vezesMaisRapido+"x mais rápido que "+perdedor+". Parabéns!!!")
             score1 = 0
