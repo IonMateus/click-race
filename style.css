@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+}
+
+h3{
+    color: black;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+h4{
+    color: blue;
+    font-size: 30px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+button{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 59, 255);
+    border: 3px solid white;
+}
+
+button:hover{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 59, 255);
+    border: 3px solid blue;
+}
+
+#divBtnStart{
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#divGame{
+    background-color: rgb(0, 0, 0);
+}
+
+#btnStartRace{
+
+color: rgb(255, 255, 255);
+background-color: rgb(56, 59, 255);
+border: 5px solid blue;
+width: 400px;
+height: 150px;
+font-size: 60px;
+
+}
+
+#btnStartRace:hover{
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 35, 255);
+    border: 5px solid blue;
+    width: 400px;
+    height: 150px;
+    font-size: 70px;
+    
+}
+
+#textJ2, #textJ1{
+    text-align: center;
+}
+
+#divJ1, #divJ2{
+
+    width: 45%;
+    height: 350px;
+    margin: 10px;
+    align-items: center;
+    background-color: rgb(56, 59, 255)
+}
+
+#divJogadores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

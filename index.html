@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Race</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+    <div id="divBtnStart">
+        <br>
+        <br>
+        <h1>Click Race</h1>
+        <button id="btnStartRace" onclick="EstadoGame()">Start Race</button>
+        <br> 
+        <br>
+    </div>
+
+    <div id="divGame" style="display: none">
+        <button onclick="EstadoStart()">Return Start</button>
+        <button onclick="mudarNomes()">Mudar nomes</button>
+        <h4 id="tempo">-</h4>
+
+        <div id="divJogadores">
+            <div id="divJ1">
+                <h2 id="textJ1">Jogador 1</h2>  
+                <p id="score1">Placar 1 </p>
+                <h3 id="teclaUtilizada1">-</h3>
+            </div>
+
+            <div id="divJ2">
+                <h2 id="textJ2">Jogador 2</h2>
+                <p id="score2">Placar 2 </p>
+                <h3 id="teclaUtilizada2">-</h3>
+            </div>
+        </div> <br>
+        <button onclick="Jogar()">Start</button>
+    </div>
+
+</body>
+</html>
